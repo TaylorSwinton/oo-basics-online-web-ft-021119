@@ -11,7 +11,7 @@ class Shoe
       if condition == "old"
         condition = "new"
       else
-        condition
+        condition = "tattered"
       end
     end
   end
