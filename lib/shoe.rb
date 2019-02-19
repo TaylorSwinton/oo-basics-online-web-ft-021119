@@ -4,5 +4,5 @@ class Shoe
   end
 
   attr_reader :brand
-  
+
 end
