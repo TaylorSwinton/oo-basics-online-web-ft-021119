@@ -12,7 +12,7 @@ class Shoe
   end
 
   def condition
-    
+
   end
 
 end
