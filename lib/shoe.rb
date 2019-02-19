@@ -12,6 +12,7 @@ class Shoe
         condition = "new"
       else
         condition
+      end
     end
   end
 
