@@ -7,13 +7,7 @@ class Shoe
   attr_accessor :color, :size, :material,
 
   def condition
-    @condition.each do |shoeCondition|
-      if shoeCondition == "old"
-        shoeCondition = "new"
-      else
-        shoeCondition = "tattered"
-      end
-    end
+    @condition = "new"
   end
 
   def cobble
