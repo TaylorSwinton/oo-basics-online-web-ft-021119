@@ -8,10 +8,10 @@ class Shoe
 
   def condition
     @condition.each do |shoeCondition|
-      if condition == "old"
-        condition = "new"
+      if shoeCondition == "old"
+        shoeCondition = "new"
       else
-        condition = "tattered"
+        shoeCondition = "tattered"
       end
     end
   end
